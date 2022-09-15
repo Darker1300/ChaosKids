@@ -12,8 +12,7 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         if (target == null) return;
-        float zRot = target.rotation.eulerAngles.z;
-        if (lockZRotation) transform.rotation =  Quaternion.AngleAxis(zRot, -Vector3.forward);
-        if (lockPosition) transform.position = target.position + lockPositionOffset;
+        if (lockZRotation) transform.rotation = Quaternion.LookRotation(Vector3.forward, target.transform.up);
+        if (lockPosition) transform.position = target.position + target.TransformVector(lockPositionOffset);
     }
 }

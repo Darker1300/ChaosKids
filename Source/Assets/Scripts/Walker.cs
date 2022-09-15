@@ -1,98 +1,69 @@
 using UnityEngine;
-using Vector2 = UnityEngine.Vector2;
 
 public class Walker : MonoBehaviour
 {
+    [Header("Config")]
     [SerializeField] private Transform planetCenter;
-    [SerializeField] private Animator animator;
+    [SerializeField] private LayerMask groundLayer;
 
-    [SerializeField]
-    private float movementSpeed;
-    [SerializeField]
-    private float groundCheckRadius;
-    //[SerializeField]
-    //private float slopeCheckDistance;
+    [SerializeField] private float speed;
+    [SerializeField] private float slopeRayLength = 3f;
 
-    [SerializeField]
-    private Transform groundCheck;
-    //[SerializeField]
-    //private LayerMask whatIsGround;
+    [Header("Debug")]
+    [SerializeField] private float xInput;
 
-    private float xInput;
+    [SerializeField] private Vector2 capsuleColliderSize;
+    [SerializeField] private Vector2 planetUpNormal;
+    [SerializeField] private Vector2 groundNormal;
+    [SerializeField] private Vector2 groundNormalPerp;
+    [SerializeField] private Vector2 newVelocity;
+    [SerializeField] private Vector2 newForce;
+    [SerializeField] private new Rigidbody2D rigidbody2D;
+    [SerializeField] private CapsuleCollider2D capsule2D;
 
-    private int facingDirection = 1;
-
-    //private Vector2 planetUpNormal;
-
-
-    private Rigidbody2D rb;
-    private CapsuleCollider2D cc;
-
-    private void Start()
+    private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
-        cc = GetComponent<CapsuleCollider2D>();
-        animator = GetComponent<Animator>();
+        rigidbody2D = GetComponent<Rigidbody2D>();
+        capsule2D = GetComponent<CapsuleCollider2D>();
     }
 
     private void Update()
     {
-        CheckInput();
-        animator.SetFloat("speed", Mathf.Abs(xInput));
+        GatherInput();
     }
 
     private void FixedUpdate()
     {
-        RotateUpright();
-        ApplyMovement();
-        ApplyGravity();
+        // Planet Normal
+        planetUpNormal = (Vector2)(transform.position - planetCenter.position).normalized;
+
+        Vector2 capsuleBasePos = (Vector2) transform.position;
+        RaycastHit2D hitDown = Physics2D.Raycast(capsuleBasePos, -planetUpNormal, slopeRayLength, groundLayer);
+        if (hitDown)
+        {
+            groundNormal = hitDown.normal;
+            groundNormalPerp = Vector2.Perpendicular(hitDown.normal).normalized;
+
+            Debug.DrawRay(hitDown.point, groundNormalPerp, Color.blue);
+            Debug.DrawRay(hitDown.point, hitDown.normal, Color.green);
+        }
+        else
+        {
+            groundNormal = (Vector2)transform.up;
+            groundNormalPerp = (Vector2)transform.right;
+        }
+
     }
 
-    private void CheckInput()
+    private void OnDrawGizmosSelected()
+    {
+
+    }
+
+
+    private void GatherInput()
     {
         xInput = Input.GetAxisRaw("Horizontal");
-
-        if (xInput == 1 && facingDirection == -1)
-        {
-            Flip();
-        }
-        else if (xInput == -1 && facingDirection == 1)
-        {
-            Flip();
-        }
     }
 
-    void RotateUpright()
-    {
-        //planetUpNormal = (Vector2)(planetCenter.position - transform.position).normalized;
-        Vector2 distVec = (Vector2)planetCenter.position - (Vector2)transform.position;
-        float angle = Mathf.Atan2(distVec.y, distVec.x) * Mathf.Rad2Deg;
-        Quaternion flipQ = facingDirection == -1 ? Quaternion.AngleAxis(180, Vector3.up) : Quaternion.identity;
-        transform.rotation = Quaternion.AngleAxis(angle + 90, Vector3.forward) * flipQ;
-    }
-
-    private void Flip()
-    {
-        facingDirection *= -1;
-        transform.Rotate(0.0f, 180.0f, 0.0f);
-    }
-
-    void ApplyMovement()
-    {
-        Vector2 moveDir = (Vector2)transform.right;
-        Vector2 moveVec = moveDir * xInput * movementSpeed * Time.fixedDeltaTime;
-        rb.AddForce(moveVec);
-    }
-
-    void ApplyGravity()
-    {
-        Vector2 attractDir = (Vector2)planetCenter.position - rb.position;
-        Vector2 attractVec = attractDir.normalized * Physics2D.gravity.sqrMagnitude * 100f * Time.fixedDeltaTime;
-        rb.AddForce(attractVec);
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
-    }
 }

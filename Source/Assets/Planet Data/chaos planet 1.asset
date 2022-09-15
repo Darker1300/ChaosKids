@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb4f4150df7102b4c89599330bf172c9, type: 3}
   m_Name: chaos planet 1
   m_EditorClassIdentifier: 
-  planetPotentialOuterRadius: 690
+  planetPotentialOuterRadius: 604
   seed: 135
-  planetRadius: 400
+  planetRadius: 350
   noiseLayers:
   - enabled: 1
     maskedBy: -1
