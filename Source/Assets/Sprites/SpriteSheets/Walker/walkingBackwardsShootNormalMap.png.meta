@@ -1,0 +1,1058 @@
+fileFormatVersion: 2
+guid: bf54dfb2ff99ec14b84ccb0e74729574
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 387
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccf08a648a1d604baa194756f0c0cf8
+      internalID: 461437505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 387
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885195d47c3fab042a47f1b8c555c25b
+      internalID: -786549359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 387
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe5fc473eece334ab6e682d22cac6f0
+      internalID: -1514344284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 387
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb69097e9fc74e41880db6fb8c72828
+      internalID: -438348415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 387
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f301639a099707c4eb4ebedfeed5c182
+      internalID: -1032574517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 387
+        width: 23
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d472a65400a0ef48a1d10b6ca2e0d97
+      internalID: 743627920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 387
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b9f4a86ce5f4343b523276fb7e6837
+      internalID: 1724935608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 323
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733b4bcd2e7fb1145bbe8570fd3c12cc
+      internalID: -1585222145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 323
+        width: 23
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd38c554ffca574db34425582f31d6f
+      internalID: 748626256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 323
+        width: 23
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f876fbe3e32ae8c46befbb22fa808edf
+      internalID: -866570740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 323
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad374b6e586100478b8cab5a789b675
+      internalID: -1247170198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 323
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e15fec37a60d44890825e790380aaf
+      internalID: -1264139406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_12
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 323
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2935ae1281fd246ade1cc1428db472
+      internalID: 1114414405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_13
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 323
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25e909f9bff786419df36872af73c78
+      internalID: 790432143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 259
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437ba863eeb688741ad51b25a3c7d274
+      internalID: -1858867011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 259
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f08208d1dba5f42b2f7e8b493013f5
+      internalID: -1748834020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_16
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 259
+        width: 22
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26062f6fb7793ec43bf9fb882da6ebac
+      internalID: -684090508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_17
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1428e93f8196244b8ee1cd41938de9
+      internalID: 1208909447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d76a64c8dc76a48a786a7ad7b00e9c
+      internalID: 1519348945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_19
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce14ddaa33bb32a43b1cd513b49ac346
+      internalID: 821721787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_20
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 259
+        width: 21
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adee2163679d95e4a8bec1adbc0e6a22
+      internalID: -1140380467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_21
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 195
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2136d4f94c3eb44ba4ff0d0ec4f13a
+      internalID: -1855192381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_22
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 195
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b124186988a6b4f40a9956b13a06117b
+      internalID: 19640044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 195
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4569e366e6fb8d644925231cc7292f8b
+      internalID: -478840254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_24
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 195
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e61ebc8341c704a95c7fdf73b7d430
+      internalID: -305010303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_25
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 195
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf5e9d530d5754438d2926c4776c250
+      internalID: 866114286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_26
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 195
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eadf2f99decbb04f8c8aa33ef5578df
+      internalID: 806443857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_27
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 195
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea74d967fb517d41b75b63b9317f486
+      internalID: -1930856878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_28
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 131
+        width: 30
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a087e58dc3b2d545bfe2927e3814d00
+      internalID: 949309259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 131
+        width: 29
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de15da29fe5bc0a4c90f049734109dec
+      internalID: 1001613897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 131
+        width: 29
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150a48c9018030345886050c83892ffe
+      internalID: -1393560828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 131
+        width: 28
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3affe2e2a8ab42742b8f64c03fa65b46
+      internalID: -1151030932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 131
+        width: 27
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766678f8cacb3334d946d13a7f2049ae
+      internalID: -1550416567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_33
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 131
+        width: 27
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54d6e6acf93ef349be9771cac9eb71f
+      internalID: 244853381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_34
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 131
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19126703a475c164093223f79b0b9d38
+      internalID: -1845640122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_35
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 67
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8abe8c5db0ecc346a77bb5fa523fc15
+      internalID: 952610891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 67
+        width: 23
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e792eec67cf48e43af5dda8a0fd0c09
+      internalID: -1163800117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_37
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c69e69a472d6f4458a5f6aa8d5f2ccc
+      internalID: 767670070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165e491a80ccbcd4a915382eb48f36d1
+      internalID: 524559668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_39
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ced91293c3b794e96863369709861f
+      internalID: 1227878376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_40
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 67
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aba747688cc6e49ac792ddd9eed91b
+      internalID: 19799145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkingBackwardsShootNormalMap_41
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 67
+        width: 22
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b598c6be66a8b224fa682daf95f1a8d0
+      internalID: -1288802341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      walkingBackwardsShootNormalMap_22: 19640044
+      walkingBackwardsShootNormalMap_1: -786549359
+      walkingBackwardsShootNormalMap_6: 1724935608
+      walkingBackwardsShootNormalMap_14: -1858867011
+      walkingBackwardsShootNormalMap_7: -1585222145
+      walkingBackwardsShootNormalMap_20: -1140380467
+      walkingBackwardsShootNormalMap_9: -866570740
+      walkingBackwardsShootNormalMap_8: 748626256
+      walkingBackwardsShootNormalMap_0: 461437505
+      walkingBackwardsShootNormalMap_23: -478840254
+      walkingBackwardsShootNormalMap_4: -1032574517
+      walkingBackwardsShootNormalMap_27: -1930856878
+      walkingBackwardsShootNormalMap_21: -1855192381
+      walkingBackwardsShootNormalMap_34: -1845640122
+      walkingBackwardsShootNormalMap_35: 952610891
+      walkingBackwardsShootNormalMap_25: 866114286
+      walkingBackwardsShootNormalMap_3: -438348415
+      walkingBackwardsShootNormalMap_15: -1748834020
+      walkingBackwardsShootNormalMap_18: 1519348945
+      walkingBackwardsShootNormalMap_19: 821721787
+      walkingBackwardsShootNormalMap_12: 1114414405
+      walkingBackwardsShootNormalMap_33: 244853381
+      walkingBackwardsShootNormalMap_41: -1288802341
+      walkingBackwardsShootNormalMap_30: -1393560828
+      walkingBackwardsShootNormalMap_37: 767670070
+      walkingBackwardsShootNormalMap_2: -1514344284
+      walkingBackwardsShootNormalMap_39: 1227878376
+      walkingBackwardsShootNormalMap_36: -1163800117
+      walkingBackwardsShootNormalMap_29: 1001613897
+      walkingBackwardsShootNormalMap_31: -1151030932
+      walkingBackwardsShootNormalMap_17: 1208909447
+      walkingBackwardsShootNormalMap_40: 19799145
+      walkingBackwardsShootNormalMap_24: -305010303
+      walkingBackwardsShootNormalMap_28: 949309259
+      walkingBackwardsShootNormalMap_38: 524559668
+      walkingBackwardsShootNormalMap_26: 806443857
+      walkingBackwardsShootNormalMap_32: -1550416567
+      walkingBackwardsShootNormalMap_11: -1264139406
+      walkingBackwardsShootNormalMap_16: -684090508
+      walkingBackwardsShootNormalMap_5: 743627920
+      walkingBackwardsShootNormalMap_13: 790432143
+      walkingBackwardsShootNormalMap_10: -1247170198
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

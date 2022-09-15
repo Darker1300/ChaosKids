@@ -1,0 +1,1520 @@
+fileFormatVersion: 2
+guid: eab689bdaad0b9744955eee585f9840a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 451
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbee931c25025840a450477099555ad
+      internalID: 1681637031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 451
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b66ecd9319be6043b3c4f0a4fe5d75e
+      internalID: -828845125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 451
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ee35497ee3d674dac089d3ec3c9410
+      internalID: -1460426375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 451
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57aa629a6d46b11449e2b7f2228a110e
+      internalID: -492937471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 451
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37b92d2a0d6b6b408e9268093faf6a4
+      internalID: -224429311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 451
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0721882a9581146a1961b7ee66cb84
+      internalID: 1829904971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 451
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10b957fce26b44459d1c8a5a5147579
+      internalID: -1293238796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 451
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e62363524318ec4cbab051dae914cde
+      internalID: -6901005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 387
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddafccbf256de04284a782ba1e6f293
+      internalID: -1349523598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 387
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758fdf7e5b3cd0e4f89ac1c99dd3a168
+      internalID: 867976684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 387
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5dff9bf1c946e42a269a7b07e08fd3
+      internalID: -684656786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 387
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effca02b7d0ea6648a1cb4312799f777
+      internalID: 532170915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 387
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a24dd365f2bd204fa2e882e5384e880
+      internalID: 1134581897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 387
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa1ab364f7f0f741829494311f34bfd
+      internalID: -239455806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_14
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 387
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1479123a63d1eb4a85cfd18f08e5b9b
+      internalID: 2144555632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_15
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 387
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06983fd5031f57945b7074eb9982ccb6
+      internalID: 586144504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 323
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b562216d6279e9c4185e6ba72e2ce1d0
+      internalID: 1051466870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_17
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 323
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a696e25b5eff3ec4188f2e6719868cdc
+      internalID: 1688823171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 323
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35ac3d77f77f3548a395f0ad4073d27
+      internalID: -1577744900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_19
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 323
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cee4af9cb6a53c47843784c8372b9f6
+      internalID: 201293810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_20
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 323
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac4bb8ae2788db43bab35f95a97e50b
+      internalID: -1272521304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_21
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 323
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64aabf639fd5cff4c978fd7e9df00e16
+      internalID: 324723826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_22
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 323
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95ba20af64f28d43b39332512691534
+      internalID: -747294872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_23
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 323
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1498d2dee7939694d935787abd2fc36b
+      internalID: 845746009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae73f02dba70144386da72e9f0b5e09
+      internalID: -278854179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b4c6467e742c046bf12310525c99c5
+      internalID: -301118757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906f4eeab5d4e7b46a3a25c7588ecc50
+      internalID: 303295797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24f3df00f8beb64a8cbb234a938ff01
+      internalID: 1242355214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_28
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93a1895b0dc9864e82c1000bcf83d7a
+      internalID: 1560983689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_29
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb68af8ccb2eb44eb22699a9479373e
+      internalID: 1666290853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_30
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05545f23f82d49a42a2af9273eece354
+      internalID: 884884510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_31
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 259
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e0c8d6d7eb3d5489cf99fa9eb58802
+      internalID: -1008279725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_32
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 195
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db5766776dfdab47b9afb9f2c299778
+      internalID: 2051162733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_33
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 195
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa717fc48f67bd458cc3440d847c93d
+      internalID: 1765218293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 195
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04f119d43a85fe48b6edcde99c3376c
+      internalID: -249430493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_35
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 195
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db11209c0ac94b49ab9d36bd808e746
+      internalID: -739378211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_36
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 195
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057d2e5011788494789a39223614cacf
+      internalID: -238029087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_37
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 195
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f4b7cbade5f064ab48070d5166c82c
+      internalID: -1413409883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_38
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 195
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9ed66a7de54764d9fe5464f90b442c
+      internalID: -899061684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_39
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 195
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c550d5d8a6ede45b7eb0b3286579fb
+      internalID: 125169423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_40
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 131
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30735eecbfbad345bba16fd9f80a9b9
+      internalID: 637600647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_41
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 131
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decc88a788f61a2469e530115f1c543a
+      internalID: -2117338838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 131
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5be3f976aff574f9099bcc671c6c7f
+      internalID: -1006005174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_43
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 131
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403c3c15effea8648840b037bea364b9
+      internalID: -2123718999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_44
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 131
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45429e09ba11fb1418afbe2e8dd15735
+      internalID: -1529372062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_45
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 131
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba9d1cd5dc8ad64986d26b76b6891b7
+      internalID: -1010301195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_46
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 131
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3c027a07c82d24e856c3c928b736da
+      internalID: 640050032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_47
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 131
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0823792ffcdd69d49b28fc2077c18da6
+      internalID: 263133829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fb7c702a79e7646968ef540da05240
+      internalID: 135817986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_49
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9fa379654779d4fbd395a4a7ae3b89
+      internalID: 2139870983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_50
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac06f1134138354abe0f18e2e5d6398
+      internalID: 727121526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_51
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc122ede7c745104bb5ff60ee294c2bb
+      internalID: 1475478809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_52
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0bdf8bcc7d3a7428bbfd703a94d668
+      internalID: 1113959993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_53
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cece44e91145744a8ae89d89ac0416
+      internalID: 1189569638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_54
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eb4d72d7d469f42aacc844a1418da2
+      internalID: -1598116979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_55
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 67
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf6d2dcf848b864496cc87cb3acf1f0
+      internalID: -1568626766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_56
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9a8c66d6f9d2746a3798e851443c24
+      internalID: 2090969553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_57
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 3
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7540f1a91a00ef4a80a5a179d170689
+      internalID: -119407492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_58
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b0fb50ddee0b948867886af5ab3a9f
+      internalID: 1434217679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_59
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 3
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9570fb0ffcac646b02aad50e359d2d
+      internalID: 347393325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_60
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 3
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1711b58ab6e7154fb3d7bbd34e1f6df
+      internalID: 20775365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_61
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 3
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51405f930e9c67c478a0d3f540050d12
+      internalID: 1318161014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAimingNormalMap_62
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 3
+        width: 22
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c991526f767d1d4b9e1fa862fff910d
+      internalID: 866817402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IdleAimingNormalMap_58: 1434217679
+      IdleAimingNormalMap_27: 1242355214
+      IdleAimingNormalMap_28: 1560983689
+      IdleAimingNormalMap_52: 1113959993
+      IdleAimingNormalMap_7: -6901005
+      IdleAimingNormalMap_44: -1529372062
+      IdleAimingNormalMap_20: -1272521304
+      IdleAimingNormalMap_31: -1008279725
+      IdleAimingNormalMap_2: -1460426375
+      IdleAimingNormalMap_60: 20775365
+      IdleAimingNormalMap_30: 884884510
+      IdleAimingNormalMap_10: -684656786
+      IdleAimingNormalMap_29: 1666290853
+      IdleAimingNormalMap_21: 324723826
+      IdleAimingNormalMap_38: -899061684
+      IdleAimingNormalMap_43: -2123718999
+      IdleAimingNormalMap_61: 1318161014
+      IdleAimingNormalMap_35: -739378211
+      IdleAimingNormalMap_40: 637600647
+      IdleAimingNormalMap_42: -1006005174
+      IdleAimingNormalMap_6: -1293238796
+      IdleAimingNormalMap_57: -119407492
+      IdleAimingNormalMap_49: 2139870983
+      IdleAimingNormalMap_14: 2144555632
+      IdleAimingNormalMap_3: -492937471
+      IdleAimingNormalMap_33: 1765218293
+      IdleAimingNormalMap_62: 866817402
+      IdleAimingNormalMap_5: 1829904971
+      IdleAimingNormalMap_25: -301118757
+      IdleAimingNormalMap_34: -249430493
+      IdleAimingNormalMap_15: 586144504
+      IdleAimingNormalMap_22: -747294872
+      IdleAimingNormalMap_59: 347393325
+      IdleAimingNormalMap_37: -1413409883
+      IdleAimingNormalMap_9: 867976684
+      IdleAimingNormalMap_26: 303295797
+      IdleAimingNormalMap_48: 135817986
+      IdleAimingNormalMap_18: -1577744900
+      IdleAimingNormalMap_23: 845746009
+      IdleAimingNormalMap_17: 1688823171
+      IdleAimingNormalMap_0: 1681637031
+      IdleAimingNormalMap_47: 263133829
+      IdleAimingNormalMap_13: -239455806
+      IdleAimingNormalMap_45: -1010301195
+      IdleAimingNormalMap_53: 1189569638
+      IdleAimingNormalMap_32: 2051162733
+      IdleAimingNormalMap_24: -278854179
+      IdleAimingNormalMap_41: -2117338838
+      IdleAimingNormalMap_54: -1598116979
+      IdleAimingNormalMap_36: -238029087
+      IdleAimingNormalMap_56: 2090969553
+      IdleAimingNormalMap_8: -1349523598
+      IdleAimingNormalMap_39: 125169423
+      IdleAimingNormalMap_12: 1134581897
+      IdleAimingNormalMap_51: 1475478809
+      IdleAimingNormalMap_50: 727121526
+      IdleAimingNormalMap_19: 201293810
+      IdleAimingNormalMap_46: 640050032
+      IdleAimingNormalMap_16: 1051466870
+      IdleAimingNormalMap_11: 532170915
+      IdleAimingNormalMap_55: -1568626766
+      IdleAimingNormalMap_1: -828845125
+      IdleAimingNormalMap_4: -224429311
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
