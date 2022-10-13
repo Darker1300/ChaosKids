@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - SkyboxCamera
+  - Planet
+  - PlanetProjectile
   layers:
   - Default
   - TransparentFX
