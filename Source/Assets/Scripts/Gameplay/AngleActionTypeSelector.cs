@@ -12,7 +12,7 @@ public class AngleActionTypeSelector : MonoBehaviour
     public int previousSelection;
     Vector2 dragCurrent;
     //public SlingMain slingMain;
-    public DragConverter dragConverter= new DragConverter();
+    //public DragConverter dragConverter= new DragConverter();
     public GameObject[] SlingActionHolder;
 
 
@@ -44,6 +44,7 @@ public class AngleActionTypeSelector : MonoBehaviour
     {
         //slingMain = GetComponent<SlingMain>();
         sectionAngleValue = 360 / CircleDivisions;
+
         UiRotationOffset = GetComponent<RectTransform>().eulerAngles.z;
     }
 
@@ -57,6 +58,7 @@ public class AngleActionTypeSelector : MonoBehaviour
 
     public void SetActionTypeSelection(Vector2 drag)
     {
+        Debug.Log("draw distance" + drag.magnitude);
         dragCurrent = drag;
         //or make it an event
         if ( dragCurrent.magnitude > minDragAmount)

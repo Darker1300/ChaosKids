@@ -34,7 +34,14 @@ public class PrecissionStrike : MonoBehaviour
 
         //InputManager.OnMouseLeftDownRelease += Strike;
     }
-
+    private void OnEnable()
+    {
+        orbitLerp.StartFinished(true);
+    }
+    private void OnDisable()
+    {
+        inOrbit = false;
+    }
     // Update is called once per frame
     void Update()
     {

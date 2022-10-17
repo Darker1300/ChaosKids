@@ -16,7 +16,7 @@ public class OrbitRouteCalculator : MonoBehaviour
     
     // 
 
-
+    
     //passes in the local start and end vectors 
     public float GetAngleDiff(Vector3 Start, Vector3 end)
     {
@@ -61,6 +61,8 @@ public class OrbitRouteCalculator : MonoBehaviour
     //start and end relative to planet center (which is the transform local of projectile) pass in ShootFromPos
     public void CalculateOrbit(Vector3 Start, Vector3 end,ref OrbitData orbitDataStart, ref OrbitData orbitDataEnd,ref float ActualOrbitTime,ref PrecissionStrike projectile)
     {
+       // GetComponent<ToOrbitTest>().GetComponent<SimpleOrbit>().overallDurationTime = 0;
+       // GetComponent<ToOrbitTest>().GetComponent<SimpleOrbit>().overallDurationTime = 0;
         Debug.Log("shoe" + end.magnitude);
         //SHORTEST PATH
         if (end.magnitude < LongestPathMinDragDist)
@@ -94,7 +96,7 @@ public class OrbitRouteCalculator : MonoBehaviour
             //fROM ORBIT END POSITION
             //orbitDataEnd.EndVector = end.normalized * 10f;
             //CHECKS RAY CAST TO FIND THE SURFACE OF PLANET
-            orbitDataEnd.EndVector = planetCenter.InverseTransformPoint( projectile.rayCheck.ShootRayCast(100,( -end.normalized), planetCenter.transform.position + (end.normalized * 200f)));
+            orbitDataEnd.EndVector = planetCenter.InverseTransformPoint( projectile.rayCheck.ShootRayCast(1000,( -end.normalized), planetCenter.transform.position + (end.normalized * 50f)));
             //Debug.DrawLine(end.normalized * 60f, (end.normalized * 60f) +( -end.normalized * 50),Color.red);
             
             //orbitDataEnd.EndVector = end.normalized * 10f;
@@ -141,7 +143,7 @@ public class OrbitRouteCalculator : MonoBehaviour
             //adds our desired distance
             orbitDataEnd.StartVector *= orbitalHeight;
             //fROM ORBIT END POSITION
-            orbitDataEnd.EndVector = planetCenter.InverseTransformPoint(projectile.rayCheck.ShootRayCast(100, ( -end.normalized), planetCenter.transform.position + (end.normalized * 200f)));
+            orbitDataEnd.EndVector = planetCenter.InverseTransformPoint(projectile.rayCheck.ShootRayCast(1000, ( -end.normalized), planetCenter.transform.position + (end.normalized * 50f)));
             //orbitDataEnd.EndVector = end.normalized * 10f;
             //Debug.DrawLine(end.normalized * 60f, (end.normalized * 60f) + (-end.normalized * 50), Color.red);
             ////DEAL WITH TIME NOW GHEE and return it

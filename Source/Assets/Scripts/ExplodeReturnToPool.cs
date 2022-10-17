@@ -6,16 +6,22 @@ public class ExplodeReturnToPool : MonoBehaviour
 {
     public ProjectileLoadManager projLoader;
     public int particleTypeIndex;
+    private Transform StartTrans;
     private void OnEnable()
     {
+        StartTrans = transform;
         StopAllCoroutines();
         StartCoroutine(timer());
     }
 
-    private void OnDisable()
-    {
-        StopAllCoroutines();
+    
 
+        private void OnDisable()
+    {
+
+        StopAllCoroutines();
+        //transform.position = StartTrans.position;
+        //transform.rotation = StartTrans.rotation;
     }
     // Start is called before the first frame update
     void Awake()

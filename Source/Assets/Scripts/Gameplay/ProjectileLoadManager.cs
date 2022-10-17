@@ -19,8 +19,8 @@ public class ProjectileLoadManager : MonoBehaviour
     {
         InputManager.LeftDragVectorEvent += Test2;
         InputManager.LeftDragEvent += Testrelease;
-        objPooler.CreatePool(20);
-        projParticlePooler[0].CreatePool(20);
+        objPooler.CreatePool(1);
+        projParticlePooler[0].CreatePool(2);
     }
 
     // Update is called once per frame
@@ -65,6 +65,8 @@ public class ProjectileLoadManager : MonoBehaviour
         var projt = projParticlePooler[particleIndexer].SpawnFromPool(planet.TransformPoint( hitDirectionPos),planet,true);
         projt.transform.up = hitDirectionPos.normalized;
         objPooler.ReturnToPool(proj);
+        proj.transform.position = transform.position;
+       // proj.GetComponent<>
         //GameObject proj = objPooler.SpawnFromPool(spawnPoint, planet, false);
         //projt.transform.localScale = new Vector3(1, 1, 1);
         //proj.transform.position = transform.position;
