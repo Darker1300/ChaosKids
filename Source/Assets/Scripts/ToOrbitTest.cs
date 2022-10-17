@@ -20,7 +20,13 @@ public class ToOrbitTest : MonoBehaviour
 
 
 
-
+        private void OnDisable()
+        {
+            inOrbit = false;
+            Dtime = 0;
+            
+            //orbitLerp.overallDurationTime = 0.01f;
+        }
 
         // Start is called before the first frame update
         void Start()

@@ -29,7 +29,11 @@ namespace AnimationLibrary
         public bool StartFromCentre;
         public bool TakeX = false;
 
-
+        private void OnDisable()
+        { 
+        
+        
+        }
         
 
         [SerializeField]
@@ -68,5 +72,6 @@ namespace AnimationLibrary
         [SerializeField]
         [Range(0f, 2f)]
         public float OrbitMultiplier;
+
     }
 }
